@@ -1,0 +1,364 @@
+    html {
+        font-size: 62.5%;
+    }
+    /* body {
+        background-image: url(it2.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    } */
+    
+    * {
+        margin: 0%;
+        padding: 0%;
+        background-color: rgb(241, 240, 240);
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    
+    #fb {
+        position: absolute;
+        color: rgb(41, 123, 247);
+        margin-top: 20rem;
+        margin-left: 15rem;
+        display: block;
+        font-size: 3rem;
+    }
+    
+    #txt {
+        position: absolute;
+        font-size: 2rem;
+        display: block;
+        margin-top: 27rem;
+        margin-left: 15rem;
+        font-size: 2.8rem;
+    }
+    
+    #form1 {
+        background-color: #fff;
+        /* border: .4rem solid white; */
+        position: absolute;
+        margin-left: 72rem;
+        margin-top: 13rem;
+        border-radius: .7rem;
+        /* height: 50rem; */
+        /* width: 40rem; */
+        text-align: center;
+        height: 35rem;
+        width: 39.6rem;
+        box-shadow: .1rem .1rem 1rem 0rem rgb(204, 204, 204);
+    }
+    
+    .msg1 {
+        position: absolute;
+        display: inline-block;
+        font-size: 4rem;
+        color: blue;
+        font-style: oblique;
+        margin-top: 35rem;
+        text-align: center;
+        border-radius: 2rem;
+    }
+    
+    #fname {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 1.4rem 1.6rem;
+        width: 33rem;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: #fff;
+    }
+    /* #lname {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        /* /* margin-top: 2rem; 
+        margin-left: 2rem;
+        border-radius: .7rem;
+        font-size: 17px;
+        padding: 14px 16px;
+        width: 330px;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: #fff;
+    }
+     */
+    
+    #cpword {
+        position: relative;
+        display: block;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 1.4rem 1.6rem;
+        width: 33rem;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: #fff;
+    }
+    
+    #cbtn {
+        position: relative;
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 2.1rem;
+        border-radius: .7rem;
+        font-size: .7rem;
+        /* padding: 14px 16px; */
+        width: 36.5rem;
+        height: 5rem;
+        background-color: rgb(58, 110, 223);
+        color: cornsilk;
+        font-size: 2rem;
+        font-style: normal;
+    }
+    
+    #rbtn {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+        margin-left: 9rem;
+        border-radius: .7rem;
+        font-size: .7rem;
+        /* padding: 14px 16px; */
+        width: 20rem;
+        height: 4.5rem;
+        background-color: rgb(50, 158, 65);
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+    }
+    
+    .span a {
+        text-decoration: none;
+    }
+    
+    .span {
+        font-size: 1.4rem;
+    }
+    
+    .hr {
+        margin-top: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+    .p {
+        margin-top: 6rem;
+        font-size: 1.5rem;
+    }
+    
+    #form2 {
+        background-color: rgb(145, 141, 141);
+        /* border: .4rem solid white; */
+        position: absolute;
+        margin-left: 45rem;
+        border-radius: 3rem;
+        margin-top: 14rem;
+        /* padding: 10rem 10rem; */
+        /* text-align: center; */
+        width: 40rem;
+        height: 50rem;
+        /* display: none; */
+        box-shadow: -1rem 1rem 5rem .5rem rgb(63, 63, 63);
+        display: none;
+    }
+    
+    .msg2 {
+        position: absolute;
+        display: inline-block;
+        font-size: 6rem;
+        color: blue;
+        background-color: rgb(126, 103, 103);
+        border-radius: 300rem;
+        font-style: oblique;
+        margin-top: 30rem;
+        text-align: center;
+    }
+    
+    #uname {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 1.4rem 1.6rem;
+        width: 33rem;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: rgb(66, 66, 128);
+    }
+    
+    #pword {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 1.4rem 1.6rem;
+        width: 33rem;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: rgb(66, 66, 128);
+    }
+    
+    #btn {
+        position: relative;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        width: 36rem;
+        height: 6rem;
+        border-radius: 1rem;
+        background-color: rgb(29, 91, 226);
+        color: rgb(126, 103, 103);
+        font-size: 3rem;
+        /* font-style: oblique; */
+    }
+    
+    @media (max-width:200px) and (min-width:0px) {
+        html {
+            font-size: 8%
+        }
+    }
+    
+    @media(max-width:250px) and (min-width:200px) {
+        html {
+            font-size: 10%;
+        }
+    }
+    
+    @media(max-width:300px) and (min-width:250px) {
+        html {
+            font-size: 12%;
+        }
+    }
+    
+    @media(max-width:350px) and (min-width:300px) {
+        html {
+            font-size: 14%;
+        }
+    }
+    
+    @media (max-width:400px) and (min-width:350px) {
+        html {
+            font-size: 16%;
+        }
+    }
+    
+    @media (max-width:450px) and (min-width:400px) {
+        html {
+            font-size: 20%;
+        }
+    }
+    
+    @media (max-width:500px) and (min-width:450px) {
+        html {
+            font-size: 22%
+        }
+    }
+    
+    @media (max-width:550px) and (min-width:500px) {
+        html {
+            font-size: 24%;
+        }
+    }
+    
+    @media (max-width:600px) and (min-width:550px) {
+        html {
+            font-size: 26%
+        }
+    }
+    
+    @media (max-width:650px) and (min-width:600px) {
+        html {
+            font-size: 28%
+        }
+    }
+    
+    @media (max-width:700px) and (min-width:650px) {
+        html {
+            font-size: 30%
+        }
+    }
+    
+    @media (max-width:750px) and (min-width:700px) {
+        html {
+            font-size: 33%
+        }
+    }
+    
+    @media (max-width:800px) and (min-width:750px) {
+        html {
+            font-size: 36%
+        }
+    }
+    
+    @media (max-width:850px) and (min-width:800px) {
+        html {
+            font-size: 39%
+        }
+    }
+    
+    @media (max-width:900px) and (min-width:850px) {
+        html {
+            font-size: 42%
+        }
+    }
+    
+    @media (max-width:950px) and (min-width:900px) {
+        html {
+            font-size: 45%
+        }
+    }
+    
+    @media (max-width:1000px) and (min-width:950px) {
+        html {
+            font-size: 48%
+        }
+    }
+    
+    @media (max-width:1050px) and (min-width:1000px) {
+        html {
+            font-size: 50%;
+        }
+    }
+    
+    @media (max-width:1100px) and (min-width:1050px) {
+        html {
+            font-size: 52.5%;
+        }
+    }
+    
+    @media (max-width:1150px) and (min-width:1100px) {
+        html {
+            font-size: 54.5%;
+        }
+    }
+    
+    @media (max-width:1200px) and (min-width:1150px) {
+        html {
+            font-size: 56.5%;
+        }
+    }
+    
+    @media (max-width:1250px) and (min-width:1200px) {
+        html {
+            font-size: 58.5%;
+        }
+    }
+    
+    @media (max-width:1300px) and (min-width:1250px) {
+        html {
+            font-size: 62.5%;
+        }
+    }
+    
+    @media (max-width:1350px) and (min-width:1300px) {
+        html {
+            font-size: 62.5%;
+        }
+    }

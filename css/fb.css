@@ -58,7 +58,7 @@
         border-radius: 2rem;
     }
     
-    #fname {
+    #lfname {
         position: relative;
         display: block;
         margin-top: 2rem;
@@ -150,24 +150,18 @@
         margin-top: 6rem;
         font-size: 1.5rem;
     }
-    
-    #form2 {
+    /* #form2 {
         background-color: rgb(145, 141, 141);
-        /* border: .4rem solid white; */
         position: absolute;
         margin-left: 45rem;
         border-radius: 3rem;
         margin-top: 14rem;
-        /* padding: 10rem 10rem; */
-        /* text-align: center; */
         width: 40rem;
         height: 50rem;
-        /* display: none; */
         box-shadow: -1rem 1rem 5rem .5rem rgb(63, 63, 63);
         display: none;
-    }
-    
-    .msg2 {
+    } */
+    /* .msg2 {
         position: absolute;
         display: inline-block;
         font-size: 6rem;
@@ -177,45 +171,132 @@
         font-style: oblique;
         margin-top: 30rem;
         text-align: center;
+    } */
+    
+    #form2 {
+        background-color: #FFFFFF;
+        position: absolute;
+        margin-left: 35vw;
+        border-radius: .5vw;
+        margin-top: 14rem;
+        width: 33.75vw;
+        height: 50rem;
+        box-shadow: -1rem 1rem 5rem .5rem rgb(63, 63, 63);
+        display: none;
+        padding: 1.25vw;
     }
     
-    #uname {
-        position: relative;
+    .msg2 {
+    
+        font-size:  2.5vw;
+        background-color: transparent;
+        display: inline;
+    
+    }
+    .close-btn{
+        margin-left: 23vw;
+        font-size: 1.5vw;
+        display: inline;
+        background-color: transparent;
+        cursor: pointer;
+    }
+    .note{
+        line-height: 1.09375vw;
         display: block;
+        background-color: transparent;
+        padding-bottom: .6vw;
+        border-bottom: .1vw solid rgb(162, 162, 162);
+        font-size: 1.171875vw;
+        margin-top: 1vw;
+    }
+    #fname {
         margin-top: 2rem;
-        margin-left: 2rem;
+
+        margin-right: 1vw;
         border-radius: .7rem;
         font-size: 1.7rem;
-        padding: 1.4rem 1.6rem;
-        width: 33rem;
+        padding: 0.9vw;
+        width:13.28125vw;
         border: .1rem solid rgb(223, 223, 223);
-        background-color: rgb(66, 66, 128);
+        background-color: transparent;
+    }
+    
+    #lname {
+        width:13.28125vw;
+        margin-top: 2rem;
+        /* margin-left: 2rem; */
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
+    }
+    #date {
+        width:10vw;
+        /* margin-top: 2rem; */
+        /* margin-left: 2rem; */
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
+    }
+    #month {
+        width:10vw;
+        /* margin-top: 2rem; */
+        margin-left: .5vw;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
+    }
+    #year {
+        width:10vw;
+        /* margin-top: 2rem; */
+        margin-left: .5vw;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
     }
     
     #pword {
-        position: relative;
-        display: block;
+        width:29.7vw;
         margin-top: 2rem;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
         border-radius: .7rem;
         font-size: 1.7rem;
-        padding: 1.4rem 1.6rem;
-        width: 33rem;
+        padding: 0.9vw;
         border: .1rem solid rgb(223, 223, 223);
-        background-color: rgb(66, 66, 128);
+        background-color: transparent;
+    }
+    
+    #mobile {
+        width:29.7vw;
+        margin-top: 2rem;
+        /* margin-left: 2rem; */
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
     }
     
     #btn {
-        position: relative;
         display: block;
-        margin-top: 2rem;
-        margin-left: 2rem;
-        width: 36rem;
+        margin-top: 1.3vw;
+        margin-left: 9vw;
+        width: 15vw;
         height: 6rem;
-        border-radius: 1rem;
-        background-color: rgb(29, 91, 226);
-        color: rgb(126, 103, 103);
-        font-size: 3rem;
+        border-radius: .8vw;
+        background-color:#36A420;
+        color: white;
+        font-size: 1.5vw;
+        height: 2.8125vw;
+        cursor: pointer;
+        
         /* font-style: oblique; */
     }
     

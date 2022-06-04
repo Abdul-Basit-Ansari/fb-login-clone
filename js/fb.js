@@ -3,10 +3,22 @@
 
 function f1() {
 
-    document.getElementById('form1').style.display = "none";
+    // document.getElementById('form1').style.display = "none";
+    document.getElementById('body').style.opacity = .2;
     document.getElementById('form2').style.display = "inline";
-    document.getElementById('fb').style.display = "none";
-    document.getElementById('txt').style.display = "none";
+    // document.getElementById('fb').style.display = "none";
+    // document.getElementById('txt').style.display = "none";
+
+
+
+}
+function c1() {
+
+    // document.getElementById('form1').style.display = "none";
+    document.getElementById('body').style.opacity = 1;
+    document.getElementById('form2').style.display = "none";
+    // document.getElementById('fb').style.display = "none";
+    // document.getElementById('txt').style.display = "none";
 
 
 

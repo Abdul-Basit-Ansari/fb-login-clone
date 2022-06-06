@@ -23,12 +23,12 @@
     </div>
 
     <div id="form1">
-        <!-- <div class="msg1">Create User Name And Password </div> -->
         <input type="text" placeholder="Email adress or phone number" name="" id="lfname">
         <!-- <input type="text" placeholder="Enter Last Name" name="" id="lname"> -->
         <input type="password" placeholder="Password" name="" id="cpword">
-        <input type="reset" value="Log In" id="cbtn" >
-        <span class="span"><a href="#">Forgotten password?</a></span>
+        <!-- <input type="reset" value="Log In" id="cbtn" onclick="f2()" > -->
+        <div id="cbtn" onclick="f2()" >Log In</div>
+        <span class="span"><a  href="#">Forgotten password?</a></span>
         <hr class="hr">
         <input type="submit" value="Create New Account" id="rbtn" onclick="f1()">
         <p class="p"> Create a Page for a celebrity, brand or business.</p>
@@ -55,7 +55,7 @@
 
         <input required type="text" placeholder="Frist Name" name="" id="fname">
         <input required type="text" placeholder="Sure Name" name="" id="lname">
-        <input required type="text" placeholder="Mobile number or email address" name="" id="mobile">
+        <input required type="text" placeholder="Mobile number or email address" name="mob" id="mobile">
         <input required type="password" placeholder="New password" name="" id="pword">
         <br>
         <p style="background-color:transparent;font-size: 1vw;margin: 1vw 0vw;">Date of birth</p>
@@ -133,12 +133,28 @@
             <option value="2000">2000</option>
             
         </select>
+        <div class="radiobox">
 
+            <div class="radio1">
+                <label for="female" class="radiolab">Female</label>
+                <input type="radio" name="gender"  class="radio" id="female">
+    </div>
+
+    <div class="radio1">
+        <label for="male" class="radiolabmale">Male</label>
+        <input type="radio" name="gender" class="radio"  id="male">
+    </div>
+    
+    <div class="radio1">
+        <label for="custom" class="radiolab">Custom</label>
+        <input type="radio" name="gender" class="radio"  id="custom">
+    </div>
+</div>
 <p style="background-color:transparent;font-size:.8vw;margin:1vw 0vw 0vw 0vw; ">People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
 <br>
 <p style="background-color:transparent;font-size:.8vw;margin:0vw 0vw .8vw 0vw;">By clicking Sign Up, you agree to our Terms, Data Policy and Cookie Policy. You may receive SMS notifications from us and can opt out at any time.</p>
 
-        <input type="submit" value="Sign Up" id="btn" onclick="f2()">
+        <input type="submit" value="Sign Up" id="btn" onclick="create()">
 
 
 

@@ -1,16 +1,16 @@
     html {
         font-size: 62.5%;
     }
-    /* body {
-        background-image: url(it2.jpeg);
+    body {
+        /* background-image: url(it2.jpeg);
         background-size: 100%;
-        background-repeat: no-repeat;
-    } */
+        background-repeat: no-repeat; */
+        background-color: rgb(241, 240, 240);
+    }
     
     * {
         margin: 0%;
         padding: 0%;
-        background-color: rgb(241, 240, 240);
         font-family: Helvetica, Arial, sans-serif;
     }
     
@@ -107,13 +107,17 @@
         margin-left: 2.1rem;
         border-radius: .7rem;
         font-size: .7rem;
-        /* padding: 14px 16px; */
+        padding-top: 1vw;
         width: 36.5rem;
-        height: 5rem;
-        background-color: rgb(58, 110, 223);
+        height: 3vw;
+        background-color: #166fe5;
         color: cornsilk;
         font-size: 2rem;
+        cursor: pointer;
         font-style: normal;
+    }
+    #cbtn:hover{
+        background-color: rgb(16, 95, 197);
     }
     
     #rbtn {
@@ -124,19 +128,26 @@
         margin-left: 9rem;
         border-radius: .7rem;
         font-size: .7rem;
+        border: none;
         /* padding: 14px 16px; */
         width: 20rem;
         height: 4.5rem;
-        background-color: rgb(50, 158, 65);
+        background-color: #36A420;
         color: rgb(255, 255, 255);
         font-size: 1.5rem;
+    }
+    #rbtn:hover{
+        background-color: #30861f;
     }
     
     .span a {
         text-decoration: none;
+        background-color: transparent;
     }
     
+    
     .span {
+        background-color: transparent;
         font-size: 1.4rem;
     }
     
@@ -180,9 +191,10 @@
         border-radius: .5vw;
         margin-top: 14rem;
         width: 33.75vw;
-        height: 50rem;
-        box-shadow: -1rem 1rem 5rem .5rem rgb(63, 63, 63);
+        height: 43vw;
+        box-shadow: -1vw 1vw 5vw .1vw rgb(166, 164, 164);
         display: none;
+
         padding: 1.25vw;
     }
     
@@ -216,13 +228,13 @@
         border-radius: .7rem;
         font-size: 1.7rem;
         padding: 0.9vw;
-        width:13.28125vw;
+        width:14vw;
         border: .1rem solid rgb(223, 223, 223);
         background-color: transparent;
     }
     
     #lname {
-        width:13.28125vw;
+        width:14vw;
         margin-top: 2rem;
         /* margin-left: 2rem; */
         border-radius: .7rem;
@@ -232,7 +244,7 @@
         background-color: transparent;
     }
     #date {
-        width:10vw;
+        width:10.5vw;
         /* margin-top: 2rem; */
         /* margin-left: 2rem; */
         border-radius: .7rem;
@@ -242,7 +254,7 @@
         background-color: transparent;
     }
     #month {
-        width:10vw;
+        width:10.5vw;
         /* margin-top: 2rem; */
         margin-left: .5vw;
         border-radius: .7rem;
@@ -252,7 +264,7 @@
         background-color: transparent;
     }
     #year {
-        width:10vw;
+        width:10.5vw;
         /* margin-top: 2rem; */
         margin-left: .5vw;
         border-radius: .7rem;
@@ -261,9 +273,32 @@
         border: .1rem solid rgb(223, 223, 223);
         background-color: transparent;
     }
-    
+    .radiolab{
+        background-color: transparent;
+        margin-right: 2.4vw;
+    }
+    .radiolabmale{
+        background-color: transparent;
+        margin-right: 4.1vw;
+    }
+    .radio1{
+        display: inline-block;
+        /* position: relative; */
+        width:8.5vw;
+        margin-top: 1vw;
+        margin-right: .5vw;
+        border-radius: .7rem;
+        font-size: 1.7rem;
+        padding: 0.9vw;
+        border: .1rem solid rgb(223, 223, 223);
+        background-color: transparent;
+        
+    }
+    .radiobox{
+        background-color:transparent;
+    }
     #pword {
-        width:29.7vw;
+        width:31vw;
         margin-top: 2rem;
         /* margin-left: 2rem; */
         border-radius: .7rem;
@@ -274,7 +309,7 @@
     }
     
     #mobile {
-        width:29.7vw;
+        width:31vw;
         margin-top: 2rem;
         /* margin-left: 2rem; */
         border-radius: .7rem;
@@ -290,12 +325,13 @@
         margin-left: 9vw;
         width: 15vw;
         height: 6rem;
-        border-radius: .8vw;
+        border-radius: .6vw;
         background-color:#36A420;
         color: white;
         font-size: 1.5vw;
         height: 2.8125vw;
         cursor: pointer;
+        border: none;
         
         /* font-style: oblique; */
     }
